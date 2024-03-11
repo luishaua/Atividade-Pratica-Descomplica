@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minha Página Responsiva</title>
+  <!-- Link para o CSS do Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Estilos personalizados */
+    body {
+      background-color: #f8f9fa;
+    }
+    .jumbotron {
+      background-color: #007bff;
+      color: #fff;
+    }
+    .footer {
+      background-color: #343a40;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header class="jumbotron text-center">
+    <h1>Minha Página Responsiva</h1>
+    <!-- Menu de Navegação -->
+    <nav>
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Início</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sobre</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contato</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Corpo da Página -->
+  <div class="container">
+    <!-- Seção 1 -->
+    <section>
+      <h2>Seção 1</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut enim ac ex lacinia sodales. In hac habitasse platea dictumst. Aenean ullamcorper magna a orci interdum pharetra.</p>
+    </section>
+
+    <!-- Seção 2 -->
+    <section>
+      <h2>Seção 2</h2>
+      <p>Integer eleifend tempus nibh, non tincidunt erat. Sed convallis nisi eget turpis finibus, id blandit nisi pellentesque. Fusce tempor, nisi a tincidunt tempus, ipsum lorem finibus turpis, a tincidunt turpis erat a ante.</p>
+    </section>
+
+    <!-- Seção 3 -->
+    <section>
+      <h2>Seção 3</h2>
+      <p>Etiam pharetra tempus convallis. Sed vehicula, enim nec cursus convallis, lorem mi vestibulum justo, ut convallis enim neque sit amet eros. Suspendisse potenti. Ut tincidunt vitae ligula a feugiat.</p>
+    </section>
+  </div>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <div class="container">
+      &copy; <span id="currentYear"></span> - Todos os direitos reservados
+    </div>
+  </footer>
+
+  <!-- Script para exibir o ano atual -->
+  <script>
+    document.getElementById("currentYear").innerText = new Date().getFullYear();
+  </script>
+
+  <!-- Script do Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
